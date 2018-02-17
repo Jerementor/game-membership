@@ -2,7 +2,7 @@
 
 /**
  * The template for displaying all pages
- * Template Name: Flex Container
+ * Template Name: Container
  * 
  * @package GameMembership
  * @since 1.0
@@ -11,13 +11,10 @@
 get_header(); 
 
 ?>
-  <div class="tgc_flex_wrapper">
-  	    <div class="tgc_flex_sidebar_light">
-  	    	<?php get_sidebar(); ?>
-  	    </div>
-  	   <div class="tgc_flex_content_light">
-      <div class="tgc_content_container">
-        <div class="w-container">
+<div class="tgc_minvh tgc_whitesmoke">
+    <div class="tgc_content_container">
+      <div class="w-container">
+        <div class="tgc_div_white">	
 		<?php
 			if ( have_posts() ) :
 
@@ -30,7 +27,6 @@ get_header();
 
 			endif;
 			?>			
-
 </div>
 </div>
 </div>
