@@ -13,7 +13,7 @@
       'after'           => '',
       'link_before'     => '',
       'link_after'      => '',
-      'items_wrap'      => '<nav id="%1$s" class="%2$s">%3$s',
+      'items_wrap'      => '<nav id="%1$s" class="%2$s">%3$s</nav>',
       'depth'           => 0,
       'walker'          => ''
   );
