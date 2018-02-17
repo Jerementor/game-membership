@@ -13,9 +13,10 @@
             <div>Account</div>
           </div>
           <nav role="secondary" class="tgc_dropdown_shadow w-dropdown-list sub-menu">
-            <a href="/register/edit-your-profile" class="tgc_dropdown_link w-dropdown-link">Edit Profile</a>
-            <a href="/register/your-membership" class="tgc_dropdown_link w-dropdown-link">Billing</a>
-            <a href=" <?php echo wp_logout_url( $redirect ); ?> " class="tgc_dropdown_link tgc_dropdown_last w-dropdown-link">Logout</a>
+            <?php get_template_part('template-parts/nav/drop_down'); ?>
+            <!--<a href="/register/edit-your-profile" class="tgc_dropdown_link w-dropdown-link">Edit Profile</a>-->
+            <!--<a href="/register/your-membership" class="tgc_dropdown_link w-dropdown-link">Billing</a>-->
+            <!--<a href=" <!?php echo wp_logout_url( $redirect ); ?> " class="tgc_dropdown_link tgc_dropdown_last w-dropdown-link">Logout</a>-->
           </nav>
         </div>
      
