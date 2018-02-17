@@ -13,7 +13,7 @@
       'after'           => '',
       'link_before'     => '',
       'link_after'      => '',
-      'items_wrap'      => '<nav id="%1$s" class="%2$s">%3$s </nav>',
+      'items_wrap'      => '<nav id="%1$s" class="%2$s">%3$s',
       'depth'           => 0,
       'walker'          => ''
   );
@@ -22,4 +22,5 @@
   $replace = array('', '<a class="tgc_nav_link_light w-nav-link"');
   
   echo str_replace($find, $replace, wp_nav_menu( $defaults ));
-?>
+?>   
+
