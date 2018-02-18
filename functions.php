@@ -45,12 +45,6 @@ add_action( 'after_setup_theme', 'thegc_setup' );
 add_post_type_support( 'page', 'excerpt' );
 
 
-// function thegc_add_div( $items, $args ) {
-//     $items = '' . $items . '<div data-delay="0" class="dropdown w-dropdown"></div>';
-//     return $items;
-// }
-// add_filter( 'wp_nav_menu_items', 'thegc_add_div', 10, 2 );
-
 function thegc_submenu_class($menu) {
     $menu = preg_replace('/ class="sub-menu"/','/ class="tgc_dropdown_shadow w-dropdown-list" /',$menu);        
     return $menu;      
@@ -60,15 +54,29 @@ add_filter('wp_nav_menu','thegc_submenu_class');
 
 
 function thegc_widgets(){
-  register_sidebar(array(
-     'name'           => __('dashboard-sidebar', 'thegameclass'),
+//   register_sidebar(array(
+//      'name'           => __('dashboard-sidebar', 'thegameclass'),
+//      'id'             => 'dashboard-sidebar',
+//      'class'          => 'tgc_sidebar_ul w-list-unstyled',
+//      'container'     => '',
+//      'description'    => __('Add widgets here to appear in the sidebar', 'thegameclass'),
+//      'before_widget'  => '<div class="tgc_sidebar_group">',
+//      'after_widget'   => '</div>',
+//      'before_title'   => '<h3 class="tgc_sidebar_header_light"> ',
+//      'after_title'    => '</h3>',
+//   ));
+  
+    register_sidebar(array(
+     'name'           => __('Dashboard - Sidebar', 'platformeracademy'),
      'id'             => 'dashboard-sidebar',
      'description'    => __('Add widgets here to appear in the sidebar', 'thegameclass'),
      'before_widget'  => '<div id="%1$s" class="%2$s">',
      'after_widget'   => '</div>',
-     'before_title'   => '<h3 class="tgc_sidebar_header_light"> ',
+     'before_title'   => '<h3 class="course_section"> ',
      'after_title'    => '</h3>',
   ));
+
+  
 
   
   

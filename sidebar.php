@@ -10,17 +10,26 @@
 ?>
 
 
-<aside id="secondary" role="complementary">
+<!--<aside id="secondary" role="complementary">-->
     
-<div class="tgc_sidebar_group">
-        <ul class="tgc_sidebar_ul w-list-unstyled">
-    <?php
-        if(is_active_sidebar('dashboard-sidebar')){
-            dynamic_sidebar('dashboard-sidebar');
-        }
-    ?>
-  </ul>
+
+            
+<div class="course_sidebar">
+        <aside id="secondary" role="complementary">
+            
+      
+ 
+                <?php if(is_active_sidebar('dashboard-sidebar')) : ?>
+            
+                            <?php dynamic_sidebar('dashboard-sidebar'); ?>
+                   
+                <?php endif; ?>
+                
+       
+        </aside>   
     </div>
-</aside>   
+
+
+<!--</aside>   -->
    
 

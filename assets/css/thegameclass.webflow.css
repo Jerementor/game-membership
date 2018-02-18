@@ -111,7 +111,7 @@ li {
   color: #a0a0a0;
 }
 
-.tgc_sidebar_group {
+.lecture_sidebar {
   margin-top: 1.2em;
   margin-bottom: 2.2em;
 }
@@ -138,14 +138,14 @@ li {
   background-color: #fff;
 }
 
-.tgc_side_link_light {
+.lecture_link {
   -webkit-transition: color 200ms ease;
   transition: color 200ms ease;
   color: #5f5f5f;
   text-decoration: none;
 }
 
-.tgc_side_link_light:hover {
+.lecture_link:hover {
   color: #000;
 }
 
@@ -170,7 +170,7 @@ li {
   font-weight: 400;
 }
 
-.tgc_sidebar_header_light {
+.course_section {
   margin-bottom: 20px;
   color: #3a3a3a;
   font-weight: 400;
@@ -200,19 +200,20 @@ li {
   background-color: #3649ff;
 }
 
-.tgc_sidebar_ul {
+.course_ul {
   font-size: 14px;
   text-align: left;
 }
 
-.tgc_sidebar_li {
+.lecture_li {
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
   transition: transform 200ms ease, -webkit-transform 200ms ease;
+
 }
 
-.tgc_sidebar_li:hover {
+.lecture_li:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -265,11 +266,6 @@ li {
 .tgc_minvh.tgc_padding {
   padding-top: 40px;
   padding-bottom: 40px;
-}
-
-.tgc_minvh.tgc_padding.tgc_side_padding {
-  padding-right: 120px;
-  padding-left: 120px;
 }
 
 .tgc_div_white {
@@ -367,13 +363,6 @@ li {
   background-color: #0d1fc7;
 }
 
-.tgc_pricing_cta {
-  margin-top: 0px;
-  font-size: 3.125em;
-  font-weight: 300;
-  text-align: center;
-}
-
 .tgc_sub_cta {
   margin-bottom: 2.5em;
   font-size: 1.6em;
@@ -400,15 +389,6 @@ li {
   letter-spacing: -0.25px;
 }
 
-.tgc_section.tgc_padding {
-  padding: 20px 120px;
-  background-color: #f5f5f5;
-}
-
-.tgc_section.tgc_padding.tgc_white {
-  background-color: #fff;
-}
-
 .text-span {
   color: #84d3ff;
 }
@@ -420,25 +400,9 @@ li {
   margin-left: auto;
 }
 
-.tgc_div_normal {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-
-.section.section-large {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.section.section-large.section-blue {
-  background-color: #00a6ff;
-  box-shadow: inset 0 8px 11px 0 rgba(0, 0, 0, .05);
-  color: #fff;
 }
 
 .section.section-side-padding {
@@ -465,20 +429,6 @@ li {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
-}
-
-.tgc_inverse_cta {
-  font-size: 3.125em;
-  text-align: center;
-}
-
-.button-center {
-  display: block;
-  text-align: center;
-}
-
-.tgc_big_li {
-  font-size: 1.1em;
 }
 
 .tgc_faq {
@@ -511,11 +461,6 @@ li {
   color: #1b1b1b;
 }
 
-.unlimited-pricing {
-  margin-top: -20px;
-  background-color: #0190dd;
-}
-
 @media (max-width: 991px) {
   .tgc_flex_wrapper {
     -webkit-box-orient: vertical;
@@ -530,7 +475,7 @@ li {
     min-width: 100%;
     text-align: center;
   }
-  .tgc_sidebar_ul {
+  .course_ul {
     text-align: center;
   }
   .tgc_content_container {
@@ -548,10 +493,6 @@ li {
     background-color: transparent;
     color: #000;
   }
-  .tgc_minvh.tgc_padding.tgc_side_padding {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
   .tgc_div_white {
     padding-right: 20px;
     padding-left: 20px;
@@ -560,10 +501,6 @@ li {
     margin-bottom: 20px;
     padding-right: 0px;
     padding-left: 0px;
-  }
-  .tgc_section.tgc_padding {
-    padding-right: 20px;
-    padding-left: 20px;
   }
   .tgc_faq {
     height: auto;
@@ -577,10 +514,6 @@ li {
   }
   .tgc_pricing_table {
     margin-bottom: 40px;
-  }
-  .section.section-large.section-blue {
-    padding-right: 20px;
-    padding-left: 20px;
   }
   .tgc_faq {
     margin-bottom: 20px;
