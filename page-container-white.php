@@ -2,7 +2,7 @@
 
 /**
  * The template for displaying all pages
- * Template Name: Container
+ * Template Name: White Container (Home - No Sidebar)
  * 
  * @package GameMembership
  * @since 1.0
@@ -11,10 +11,7 @@
 get_header(); 
 
 ?>
-<div class="tgc_minvh tgc_whitesmoke">
-    <div class="tgc_content_container">
-      <div class="w-container">
-        <div class="tgc_div_white">	
+  <div class="tgc_minvh tgc_top_flex">
 		<?php
 			if ( have_posts() ) :
 
@@ -27,9 +24,6 @@ get_header();
 
 			endif;
 			?>			
-</div>
-</div>
-</div>
 </div>
 
 <?php get_footer();
