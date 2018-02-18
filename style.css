@@ -10,7 +10,7 @@ Tags: epic blog
 
 */
 
-
+/*Sidebar*/
 .widget_nav_menu{
     margin-top: 1.2em;
     margin-bottom: 2.2em;
@@ -26,9 +26,6 @@ ul.menu {
   /*border-bottom: 1px solid rgba(0, 0, 0, .21);*/
   font-size: 14px;
   list-style-type: none;  
-  
-
-  
 }
 
 li.lecture_li a {
@@ -43,12 +40,36 @@ li.lecture_li a:hover {
 }
 
 
-/*Rcp Login Form*/
+/*Rcp Inputs*/
 .rcp_form input[type=text], .rcp_form input[type=password], .rcp_form input[type=email] {
     width: 100%;
     height: 50px;
+    padding-left: 12px;
+    border: 1px solid #dfdfdf;    
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    
 }
 
+.rcp_submit{
+    height: 65px;
+    background-color: #3649ff;
+    width: 100%;
+    color: white;
+    border: none;
+}
+
+select[name=rcp_display_name]{
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #dfdfdf; 
+    width: 100%;
+}
+
+fieldset legend{
+    display: none;
+}
 
 .rcp-table {
     border-collapse: separate;
