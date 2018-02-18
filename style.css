@@ -51,12 +51,21 @@ li.lecture_li a:hover {
     
 }
 
-.rcp_submit{
+
+
+#rcp_submit, .rcp_submit{
     height: 65px;
     background-color: #3649ff;
     width: 100%;
     color: white;
     border: none;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+    
+}
+
+#rcp_submit, .rcp_submit:hover{
+    background-color: #0d1fc7;
 }
 
 select[name=rcp_display_name]{
