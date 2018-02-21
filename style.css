@@ -10,6 +10,13 @@ Tags: epic blog
 
 */
 
+/*GV single labels*/
+.gv-field-label {
+    padding-right: .25em;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
 /**GV table**/
 .gv-table-view th, .gv-table-view td {
     border: 1px solid #dadada;
