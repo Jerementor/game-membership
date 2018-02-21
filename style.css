@@ -11,7 +11,7 @@ Tags: epic blog
 */
 
 /*GV Td Hover*/
-.gv-table-view td:hover { 
+table.gv-table-view tr:hover td {
    background-color: #dadada;
 }
 
