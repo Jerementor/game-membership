@@ -10,6 +10,11 @@ Tags: epic blog
 
 */
 
+/*GV Td Hover*/
+.gv-table-view td:hover { 
+   background-color: #dadada;
+}
+
 /*GV single labels*/
 .gv-field-label {
     padding-right: .25em;
