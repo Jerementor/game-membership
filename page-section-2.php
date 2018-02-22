@@ -11,7 +11,7 @@
 get_header(); 
 
 ?>
-<!-- Section1.php -->
+<!-- Section2.php -->
 
 <div class="section_holder">
 <div class="section-2">

@@ -2,7 +2,7 @@
 
 /**
  * The template for displaying all pages
- * Template Name: Section 2 - Header
+ * Template Name: Section 2 - Comments
  *
  * @package GameMembership
  * @since 1.0
@@ -11,13 +11,12 @@
 get_header(); 
 
 ?>
-<!-- Section2-header.php -->
+<!-- Section2.php -->
 
 <div class="section_holder">
 <div class="section-2">
 <div class="w-container">
 <div class="tgc_div">
-<h1><?php wp_title('') ?></h1>	
 
 		<?php 
 		if ( have_posts() ) {
@@ -32,6 +31,16 @@ get_header();
 		?>
 </div>
 </div>	
+</div>
+<div class="section">
+	<div class="w-container">
+		<div class="tgc_div">
+			<?php if(is_singular('entry')) : ?>
+        		<?php get_template_part('template-parts/comments/disqus'); ?>
+			<?php endif; ?>
+
+		</div>
+	</div>
 </div>
 </div>
 <?php get_footer();
