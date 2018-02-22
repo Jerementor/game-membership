@@ -32,15 +32,15 @@ get_header();
 </div>
 </div>	
 </div>
+<?php if (strpos($_SERVER['REQUEST_URI'], "entry") !== false) : ?>
 <div class="section">
 	<div class="w-container">
 		<div class="tgc_div">
-			<?php if(is_singular('entry')) : ?>
         		<?php get_template_part('template-parts/comments/disqus'); ?>
-			<?php endif; ?>
-
 		</div>
 	</div>
 </div>
+<?php endif; ?>
+
 </div>
 <?php get_footer();
