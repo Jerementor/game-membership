@@ -123,20 +123,23 @@ ul.menu {
 
 input[type=submit]{
     height: 65px;
-    background-color: #3649ff;
+    background-color: #23b0ff;;
     width: 100%;
     color: white;
-    border: none;
     cursor: pointer;
+    border-radius: 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: #00659e;
     transition: background-color 200ms ease;
 }
 
 input[type=submit]:hover{
-    background-color: #0d1fc7;
+    background-color: #008bff;
 }
 
-
-
+input[type=submit]:active{
+ border-bottom-style: none;   
+}
 
 .rcp_lost_password a{
     color: #a3a3a3;
