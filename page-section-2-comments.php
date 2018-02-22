@@ -32,11 +32,11 @@ get_header();
 </div>
 </div>	
 </div>
-<?php if (strpos($_SERVER['REQUEST_URI'], "entry") !== false) : ?>
+<?php if (strpos($_SERVER['REQUEST_URI'], "entry" || "idea-library/entry") !== false) : ?>
 <div class="section">
 	<div class="w-container">
 		<div class="tgc_div">
-        		<?php get_template_part('template-parts/comments/disqus'); ?>
+        	<?php get_template_part('template-parts/comments/disqus'); ?>
 		</div>
 	</div>
 </div>
