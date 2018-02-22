@@ -41,6 +41,7 @@
   
   <?php if (is_user_logged_in() ) : ?>
     <?php get_template_part('template-parts/nav/logged_in_nav'); ?>
+    <?php get_template_part('template-parts/nav/logged_in_second_nav'); ?>
 <?php else: ?>
     <?php get_template_part('template-parts/nav/logged_out_nav'); ?>
 <?php endif; ?>    

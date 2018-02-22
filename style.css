@@ -46,12 +46,78 @@ ul.menu {
   list-style-type: none;  
 }
 
-/*Rcp Login Form*/
+/*Rcp Inputs*/
 .rcp_form input[type=text], .rcp_form input[type=password], .rcp_form input[type=email] {
     width: 100%;
     height: 50px;
+    padding-left: 12px;
+    border: 1px solid #dfdfdf;    
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    
 }
 
+
+
+#rcp_submit, .rcp_submit{
+    height: 65px;
+    background-color: #3649ff;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+    
+}
+
+#rcp_submit, .rcp_submit:hover{
+    background-color: #0d1fc7;
+}
+
+input[type=submit]{
+    height: 65px;
+    background-color: #3649ff;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+}
+
+input[type=submit]:hover{
+    background-color: #0d1fc7;
+}
+
+
+
+
+.rcp_lost_password a{
+    color: #a3a3a3;
+    text-decoration: none;
+} 
+.rcp_lost_password a:hover{
+    color: #3d3d3d;
+    transition: color 200ms ease;
+} 
+
+
+
+
+select[name=rcp_display_name]{
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #dfdfdf; 
+    width: 100%;
+}
+
+label[for=rcp_user_remember]{
+    display: inline-block;
+}
+
+fieldset legend{
+    display: none;
+}
 
 .rcp-table {
     border-collapse: separate;

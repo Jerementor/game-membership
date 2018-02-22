@@ -19,7 +19,8 @@ function thegc_menu_setup(){
     register_nav_menus( array(
         'logged-in'     => __("Logged-In Menu", "thegameclass-login"),
         'logged-out'    => __("Logged-Out Menu", "thegameclass-logout"),
-        'drop-down'    => __("Dropdown Menu", "thegameclass-drop")
+        'drop-down'    => __("Dropdown Menu", "thegameclass-drop"),
+        'second-nav'    => __("Second Nav Menu", "thegameclass-secondnav"),
         
     ));
     
