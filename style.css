@@ -25,7 +25,7 @@ Tags: epic blog
     color: white;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 100% !important;
     height: 65px;
     margin-top: 10px;
     border-style: none none solid;
@@ -42,7 +42,7 @@ Tags: epic blog
 .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
     font-size: inherit;
     font-family: inherit;
-    padding: -9px 4px;
+    padding: 12px;
     letter-spacing: normal;
     width: 100%;
     height: 50px;
@@ -66,7 +66,6 @@ table.gv-table-view tr:hover td {
 
 /**GV table**/
 .gv-table-view th, .gv-table-view td {
-    /*border: 1px solid #f3f3f3;*/
     padding: 1em;
 }
 
