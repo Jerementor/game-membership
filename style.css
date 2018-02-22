@@ -10,9 +10,51 @@ Tags: epic blog
 
 */
 
+/*Gravtiy form textarea*/
+.gform_wrapper textarea {
+    padding: 12px;
+    border: 1px solid #dfdfdf;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+/*Gravity form submit*/
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    background-color: #23b0ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 65px;
+    margin-top: 10px;
+    border-style: none none solid;
+    border-width: 1px 1px 4px;
+    border-color: #ece7e7 #ece7e7 #00659e;
+    border-radius: 6px;
+    
+    transition: background-color 200ms ease;
+
+}
+
+
+/*Gravity form input*/
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: inherit;
+    font-family: inherit;
+    padding: -9px 4px;
+    letter-spacing: normal;
+    width: 100%;
+    height: 50px;
+    padding-left: 12px;
+    border: 1px solid #dfdfdf;
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
 /*GV Td Hover*/
 table.gv-table-view tr:hover td {
-   background-color: #dadada;
+   background-color: #f3f3f3;
 }
 
 /*GV single labels*/
@@ -24,9 +66,10 @@ table.gv-table-view tr:hover td {
 
 /**GV table**/
 .gv-table-view th, .gv-table-view td {
-    border: 1px solid #dadada;
-    padding: 5px;
+    /*border: 1px solid #f3f3f3;*/
+    padding: 1em;
 }
+
 
 tfoot{
     display: none;
@@ -61,17 +104,23 @@ ul.menu {
 
 #rcp_submit, .rcp_submit{
     height: 65px;
-    background-color: #3649ff;
+    background-color: #23b0ff;;
     width: 100%;
     color: white;
-    border: none;
     cursor: pointer;
+    border-radius: 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: #00659e;
     transition: background-color 200ms ease;
-    
+
 }
 
 #rcp_submit, .rcp_submit:hover{
-    background-color: #0d1fc7;
+    background-color: #008bff;
+}
+
+#rcp_submit, .rcp_submit:active{
+ border-bottom-style: none;   
 }
 
 input[type=submit]{
