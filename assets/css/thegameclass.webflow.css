@@ -198,7 +198,21 @@ li {
   width: 100%;
   height: 50px;
   margin-top: 10px;
-  background-color: #3649ff;
+  border-style: none none solid;
+  border-width: 1px 1px 4px;
+  border-color: #ece7e7 #ece7e7 #00659e;
+  border-radius: 6px;
+  background-color: #23b0ff;
+  -webkit-transition: background-color 200ms ease, border 200ms ease;
+  transition: background-color 200ms ease, border 200ms ease;
+}
+
+.tgc_submit_button:hover {
+  background-color: #008bff;
+}
+
+.tgc_submit_button:active {
+  border-bottom-style: none;
 }
 
 .course_ul {
@@ -354,13 +368,21 @@ li {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px 40px;
-  background-color: #283dff;
+  border-style: none none solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #00659e;
+  border-radius: 6px;
+  background-color: #23b0ff;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
 }
 
 .tgc_button:hover {
-  background-color: #0d1fc7;
+  background-color: #008bff;
+}
+
+.tgc_button:active {
+  border-bottom-style: none;
 }
 
 .tgc_sub_cta {
@@ -539,7 +561,7 @@ li {
   margin-bottom: 20px;
   padding: 20px;
   border: 1px solid #ece7e7;
-  background-color: #fff;
+  background-color: #fafafa;
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
   transition: transform 200ms ease;
@@ -561,7 +583,8 @@ li {
 }
 
 .lesson_block_desc {
-  color: #a3a3a3;
+  color: #585858;
+  font-size: 1em;
 }
 
 .lesson_type {
@@ -576,6 +599,10 @@ li {
 .section_holder {
   min-height: 100vh;
   background-color: #fafafa;
+}
+
+.tgc_page_header {
+  margin-bottom: 1em;
 }
 
 @media (max-width: 991px) {

@@ -32,7 +32,7 @@ get_header();
 </div>
 </div>	
 </div>
-<?php if (strpos($_SERVER['REQUEST_URI'], "entry" || "idea-library/entry") !== false) : ?>
+<?php if (strpos($_SERVER['REQUEST_URI'], "entry") !== false) : ?>
 <div class="section">
 	<div class="w-container">
 		<div class="tgc_div">
