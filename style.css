@@ -73,11 +73,13 @@ table.gv-table-view tr:hover td {
     width: 0px !important;
 }
 
+
 .gv-widget-pagination{
     margin-top: 20px;
     margin-bottom: 10px;
     color: #a3a3a3;
 }
+
 tfoot{
     display: none;
 }
