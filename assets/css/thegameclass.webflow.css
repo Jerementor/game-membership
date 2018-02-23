@@ -375,6 +375,8 @@ li {
   background-color: #23b0ff;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
+  color: white;
+  text-decoration: none;
 }
 
 .tgc_button:hover {
