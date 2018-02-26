@@ -15,7 +15,7 @@ get_header();
 
 <div class="section_holder">
 <div class="section-2">
-<div class="w-container">
+
 		<?php 
 		if ( have_posts() ) {
 			while ( have_posts() ) {
@@ -27,7 +27,6 @@ get_header();
 		} // end if
 		?>
 
-</div>	
 </div>
 </div>
 <?php get_footer();
