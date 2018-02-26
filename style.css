@@ -110,7 +110,9 @@ ul.menu {
     
 }
 
-
+#rcp-account-overview{
+    display: none;
+}
 
 #rcp_submit, .rcp_submit{
     height: 65px;
