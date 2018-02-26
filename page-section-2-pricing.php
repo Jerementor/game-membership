@@ -2,7 +2,7 @@
 
 /**
  * The template for displaying all pages
- * Template Name: Section 2
+ * Template Name: Section 2 - Pricing
  *
  * @package GameMembership
  * @since 1.0
@@ -22,7 +22,6 @@ get_header();
 				the_post(); 
 				//
 				the_content();
-
 				//
 			} // end while
 		} // end if
