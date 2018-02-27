@@ -7,8 +7,10 @@
   </a>
   
 
-  <nav role="navigation" class="nav-menu w-nav-menu">
+    <nav role="navigation" class="nav-menu w-nav-menu">
       <?php get_template_part( 'template-parts/nav/nav_in'); ?> 
+      
+      <?php if(!is_page_template('page-join')) : ?>
         <div data-delay="0" class="dropdown w-dropdown">
           <div class="dropdown-toggle w-dropdown-toggle">
             <div class="w-icon-dropdown-toggle"></div>
@@ -17,11 +19,15 @@
           <nav role="secondary" class="tgc_dropdown_shadow w-dropdown-list sub-menu">
             <?php get_template_part('template-parts/nav/drop_down'); ?>
           </nav>
-     </div>
+        </div>
+     <?php endif; ?>
+     
      </nav>
      </nav>
+     
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu"></div>
       </div>
+      
     </div>
   </div>
