@@ -14,7 +14,7 @@
         <div data-delay="0" class="dropdown w-dropdown">
           <div class="dropdown-toggle w-dropdown-toggle">
             <div class="w-icon-dropdown-toggle"></div>
-            <div>Account</div>
+            <div>Hi, <?php echo do_shortcode(' [mepr-account-info field="first_name"]'); ?></div>
           </div>
           <nav role="secondary" class="tgc_dropdown_shadow w-dropdown-list sub-menu">
             <?php get_template_part('template-parts/nav/drop_down'); ?>
