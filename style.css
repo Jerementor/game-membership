@@ -198,6 +198,27 @@ input[type="submit"]{
     border-radius: 6px;
 }
 
+/*Payment method box*/
+.mp_wrapper .mepr_payment_method {
+    background-color: #fafafa !important;
+    border: 1px solid #ece7e7;
+    border-radius: 6px;
+}
+
+/*Payment radio buttons*/
+input[type="radio"]{
+    
+}
+
+.mepr-form-radio{
+    background: red;
+}
+
+input[name="mepr_payment_method"]{
+    width: 30px;
+    height: 50px;
+}
+
 /*Margin for registration form*/
 .mp_wrapper .mp-form-row {
     margin-bottom: 20px;
