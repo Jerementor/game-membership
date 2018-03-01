@@ -214,13 +214,22 @@ input[name="new-password-submit"]:active{
     width: 100%;
 }
 
-#mepr-account-home, #mepr-account-subscriptions, #mepr-account-payments, #mepr-account-logout{
+#mepr-account-home, #mepr-account-subscriptions, #mepr-account-payments{
     color: #a3a3a3 !important;
     text-decoration: none !important;
+    padding: 0px 20px 0px 20px;
 }
-#mepr-account-home:hover, #mepr-account-subscriptions:hover, #mepr-account-payments:hover, #mepr-account-logout:hover {
+#mepr-account-home:hover  {
     color: #3d3d3d;
     transition: color 200ms ease;
+}
+
+#mepr-account-logout{
+ display: none;
+}
+
+div#mepr-account-nav {
+ /*text-align: center;*/
 }
 
 /*Mepr Change Password*/
