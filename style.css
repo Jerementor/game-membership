@@ -220,23 +220,10 @@ input[name="mepr_payment_method"]{
     cursor: pointer;
     opacity: 0.5;
 }
-.mepr-form-radio input[type="radio"]:checked + span{
-  color:#0B8;  
+
+.mepr-form-radio input[type="radio"]:checked + label {
   opacity: 1;
-}
-.mepr-form-radio input[type="radio"]:checked + span:before{
-  content:'';
-  width:5px;
-  height:5px;
-  position:absolute;
-  background:#0B8;
-  left:5px;
-  top:6px;
-  border-radius:100%;
-  -ms-border-radius:100%;
-  -moz-border-radius:100%;
-  -webkit-border-radius:100%;
-}
+} 
 
 /*Margin for registration form*/
 .mp_wrapper .mp-form-row {
