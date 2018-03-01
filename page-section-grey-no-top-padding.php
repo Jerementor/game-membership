@@ -2,7 +2,7 @@
 
 /**
  * The template for displaying all pages
- * Template Name: Section 2 - Comments
+ * Template Name: Grey - No Top Padding (Main)
  *
  * @package GameMembership
  * @since 1.0
@@ -11,10 +11,10 @@
 get_header(); 
 
 ?>
-<!-- Section2.php -->
+<!-- Grey - No Top Padding (Main).php -->
 
-<div class="section_holder">
-<div class="section-2">
+<div class="section_holder_grey">
+<div class="section-no-top-padding">
 <div class="w-container">
 <div class="tgc_div">
 
@@ -32,15 +32,5 @@ get_header();
 </div>
 </div>	
 </div>
-<?php if (strpos($_SERVER['REQUEST_URI'], "entry") !== false) : ?>
-<div class="section">
-	<div class="w-container">
-		<div class="tgc_div">
-        	<?php get_template_part('template-parts/comments/disqus'); ?>
-		</div>
-	</div>
-</div>
-<?php endif; ?>
-
 </div>
 <?php get_footer();

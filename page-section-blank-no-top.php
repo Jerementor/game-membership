@@ -2,7 +2,7 @@
 
 /**
  * The template for displaying all pages
- * Template Name: Section 2
+ * Template Name: Blank - No Top Padding
  *
  * @package GameMembership
  * @since 1.0
@@ -11,12 +11,9 @@
 get_header(); 
 
 ?>
-<!-- Section2.php -->
-
-<div class="section_holder">
-<div class="section-2">
-<div class="w-container">
-<div class="tgc_div">
+<!-- Blank - No Top Padding.php -->
+<div class="section_holder_blank">
+<div class="section-no-top-padding">
 
 		<?php 
 		if ( have_posts() ) {
@@ -29,8 +26,6 @@ get_header();
 			} // end while
 		} // end if
 		?>
-</div>
 </div>	
-</div>
 </div>
 <?php get_footer();

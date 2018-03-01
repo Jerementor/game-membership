@@ -2,7 +2,7 @@
 
 /**
  * The template for displaying all pages
- * Template Name: Section 2 - Header
+ * Template Name: Grey - No Top (Header)
  *
  * @package GameMembership
  * @since 1.0
@@ -11,14 +11,13 @@
 get_header(); 
 
 ?>
-<!-- Section2-header.php -->
+<!-- Grey - No Top (Header).php -->
 
-<div class="section_holder">
-<div class="section-2">
+<div class="section_holder_grey">
+<div class="section-no-top-padding">
 <div class="w-container">
 <div class="tgc_div">
 <h1><?php wp_title('') ?></h1>	
-
 		<?php 
 		if ( have_posts() ) {
 			while ( have_posts() ) {

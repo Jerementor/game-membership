@@ -57,6 +57,14 @@ li {
   margin-bottom: 1.1em;
 }
 
+blockquote {
+  margin-bottom: 1.2em;
+  padding: 10px 20px;
+  border-left: 5px solid #e2e2e2;
+  font-size: 18px;
+  line-height: 1.6em;
+}
+
 .tgc_brand {
   margin-top: 13px;
   color: #ccc;
@@ -100,54 +108,13 @@ li {
   background-color: transparent;
 }
 
-.tgc_flex_wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-}
-
 .dropdown {
   color: #a0a0a0;
-}
-
-.lecture_sidebar {
-  margin-top: 1.2em;
-  margin-bottom: 2.2em;
-}
-
-.tgc_flex_sidebar_light {
-  width: 15%;
-  max-width: 15%;
-  min-width: 15%;
-  padding: 10px 30px;
-  border-right: 1px solid #ddd;
-  background-color: #fafafa;
-}
-
-.tgc_flex_content_light {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  background-color: #f5f5f5;
 }
 
 .tgc_navbar_light {
   border-bottom: 1px solid #ddd;
   background-color: #fff;
-}
-
-.lecture_link {
-  -webkit-transition: color 200ms ease;
-  transition: color 200ms ease;
-  color: #5f5f5f;
-  text-decoration: none;
-}
-
-.lecture_link:hover {
-  color: #000;
 }
 
 .tgc_nav_link_light {
@@ -169,13 +136,6 @@ li {
   color: #23b0ff;
   font-style: italic;
   font-weight: 400;
-}
-
-.course_section {
-  margin-bottom: 20px;
-  color: #3a3a3a;
-  font-weight: 400;
-  letter-spacing: -0.5px;
 }
 
 .tgc_lyp {
@@ -215,28 +175,6 @@ li {
   border-bottom-style: none;
 }
 
-.course_ul {
-  font-size: 14px;
-  text-align: left;
-}
-
-.lecture_li {
-  -webkit-transition: -webkit-transform 200ms ease;
-  transition: -webkit-transform 200ms ease;
-  transition: transform 200ms ease;
-  transition: transform 200ms ease, -webkit-transform 200ms ease;
-}
-
-.lecture_li:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-.tgc_content_container {
-  padding: 20px 40px;
-}
-
 .tgc_blue_topbar {
   height: 10px;
   background-image: -webkit-linear-gradient(315deg, #23b0ff 41%, #008bff);
@@ -247,52 +185,6 @@ li {
   margin-right: -25px;
   margin-left: -25px;
   box-shadow: -1px 16px 22px 0 rgba(0, 0, 0, .05);
-}
-
-.tgc_minvh {
-  min-height: 100vh;
-}
-
-.tgc_minvh.tgc_whitesmoke {
-  background-color: #f5f5f5;
-}
-
-.tgc_minvh.tgc_whitesmoke.tgc_top_flex {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-}
-
-.tgc_minvh.tgc_padding {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.tgc_div_white {
-  display: block;
-  margin: 20px auto;
-  padding: 20px 40px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border: 1px solid #ece7e7;
-  background-color: #fff;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .05);
 }
 
 .tgc_blog_container {
@@ -317,7 +209,7 @@ li {
   color: #23b0ff;
 }
 
-.tgc_nav_link_special {
+.special {
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -332,7 +224,7 @@ li {
   font-weight: 400;
 }
 
-.tgc_nav_link_special:hover {
+.special:hover {
   background-color: #3649ff;
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -375,8 +267,6 @@ li {
   background-color: #23b0ff;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
-  color: white;
-  text-decoration: none;
 }
 
 .tgc_button:hover {
@@ -417,28 +307,21 @@ li {
   color: #84d3ff;
 }
 
-.tgc_640width_auto {
-  display: block;
-  width: 640px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.section {
+.section-60-top-padding {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.section.section-side-padding {
+.section-60-top-padding.section-side-padding {
   padding-right: 60px;
   padding-left: 60px;
 }
 
-.section.section-side-padding.section-grey {
+.section-60-top-padding.section-side-padding.section-grey {
   background-color: #f5f5f5;
 }
 
-.section.section-side-padding.section-big-padding {
+.section-60-top-padding.section-side-padding.section-big-padding {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -489,36 +372,6 @@ li {
   color: #1b1b1b;
 }
 
-.text-field {
-  height: 50px;
-  border: 1px solid #dfdfdf;
-}
-
-.section-2 {
-  padding: 40px;
-}
-
-.div-grey {
-  padding: 40px;
-  background-color: #f5f5f5;
-}
-
-.div-grey._640-width {
-  display: block;
-  width: 640px;
-  margin-right: auto;
-  margin-left: auto;
-  border: 1px solid #ece7e7;
-}
-
-.section-100 {
-  min-height: 100vh;
-}
-
-.section-100.section-primary {
-  background-color: #fafafa;
-}
-
 .tgc_second_nav {
   border-bottom: 1px solid #ddd;
   background-color: #f5f5f5;
@@ -539,7 +392,7 @@ li {
   color: #000;
 }
 
-.section-2 {
+.section-no-top-padding {
   padding-top: 0px;
 }
 
@@ -556,6 +409,10 @@ li {
   border-color: #ece7e7;
   background-color: #fff;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .05);
+}
+
+.tgc_div.tgc_640 {
+  width: 640px;
 }
 
 .tgc_lesson_block {
@@ -598,7 +455,7 @@ li {
   color: #a8a4a4;
 }
 
-.section_holder {
+.section_holder_grey {
   min-height: 100vh;
   background-color: #fafafa;
 }
@@ -607,27 +464,11 @@ li {
   margin-bottom: 1em;
 }
 
+.section_holder_blank {
+  min-height: 100vh;
+}
+
 @media (max-width: 991px) {
-  .tgc_flex_wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-  }
-  .tgc_flex_sidebar_light {
-    display: block;
-    width: 100%;
-    min-width: 100%;
-    text-align: center;
-  }
-  .course_ul {
-    text-align: center;
-  }
-  .tgc_content_container {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
   .nav-menu {
     background-color: #fff;
     color: #000;
@@ -639,24 +480,24 @@ li {
     background-color: transparent;
     color: #000;
   }
-  .tgc_div_white {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
   .tgc_pricing_table {
     margin-bottom: 20px;
     padding-right: 0px;
     padding-left: 0px;
   }
+  .section-60-top-padding {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
   .tgc_faq {
     height: auto;
-  }
-  .div-grey._640-width {
-    width: auto;
   }
   .tgc_div {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .tgc_div.tgc_640 {
+    width: auto;
   }
   .tgc_lesson_block {
     height: auto;
@@ -664,19 +505,11 @@ li {
 }
 
 @media (max-width: 767px) {
-  .tgc_div_white {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
   .tgc_pricing_table {
     margin-bottom: 40px;
   }
   .tgc_faq {
     margin-bottom: 20px;
-  }
-  .div-grey._640-width {
-    margin-right: 20px;
-    margin-left: 20px;
   }
   .tgc_div {
     padding-right: 20px;
@@ -685,28 +518,14 @@ li {
 }
 
 @media (max-width: 479px) {
-  .tgc_content_container {
+  .section-60-top-padding.section-side-padding {
     padding-right: 20px;
     padding-left: 20px;
-  }
-  .tgc_div_white {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .section.section-side-padding {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .div-grey._640-width {
-    margin-right: 10px;
-    margin-left: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
   }
   .tgc_sn_nav_link {
     display: block;
   }
-  .section-2 {
+  .section-no-top-padding {
     padding-right: 10px;
     padding-left: 10px;
   }
