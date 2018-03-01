@@ -212,7 +212,7 @@ input[type="submit"]{
   width: 30px;
   height: 50px;
   cursor: pointer;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .mepr_payment_method input[type="radio"]:not(:checked) {
@@ -224,6 +224,7 @@ input[type="submit"]{
 .mepr_payment_method input[type="radio"]:checked {
   /* Checked Styles */
   opacity: 1;
+  transition: opacity 400ms ease;
 }
 
 /*Margin for registration form*/
