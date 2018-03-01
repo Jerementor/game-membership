@@ -206,24 +206,25 @@ input[type="submit"]{
 }
 
 /*Payment radio buttons*/
-input[type="radio"]{
-    
+
+input[type="checkbox"] {
+  /* Base Styles aka unchecked */
+  width: 30px;
+  height: 50px;
+  cursor: pointer;
+  opacity: 0.5;
 }
 
-.mepr-form-radio{
-    background: red;
+input[type="checkbox"]:not(:checked) {
+  /* Explicit Unchecked Styles */
+  border: 1px solid #ece7e7;
+  background: #fafafa;
 }
 
-input[name="mepr_payment_method"]{
-    width: 30px;
-    height: 50px;
-    cursor: pointer;
-    opacity: 0.5;
-}
-
-input[type="radio"]:checked + label {
+input[type="checkbox"]:checked {
+  /* Checked Styles */
   opacity: 1;
-} 
+}
 
 /*Margin for registration form*/
 .mp_wrapper .mp-form-row {
