@@ -180,6 +180,11 @@ input[type="submit"]{
     border: 1px solid #dfdfdf;
 }
 
+/*Margin for registration form*/
+.mp_wrapper .mp-form-row {
+    margin-bottom: 20px;
+}
+
 /*Mp form label*/
 .mp-form-label{
     margin-bottom: 10px;
