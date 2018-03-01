@@ -164,6 +164,7 @@ input[name=mepr-account-form]{
     width: 100%;
     color: white;
     cursor: pointer;
+    border: 1px solid #0075b7;    
     border-radius: 6px;
     border-bottom-width: 4px;
     border-bottom-color: #00659e;
@@ -185,6 +186,7 @@ input[name="new-password-submit"]{
     width: 100%;
     color: white;
     cursor: pointer;
+    border: 1px solid #0075b7;    
     border-radius: 6px;
     border-bottom-width: 4px;
     border-bottom-color: #00659e;
@@ -197,6 +199,19 @@ input[name="new-password-submit"]:hover{
 
 input[name="new-password-submit"]:active{
  border-bottom-style: none;   
+}
+
+/*mepr password strength*/
+.mp-nopass {
+    background: #fafafa;
+    border: 1px solid #ece7e7;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: #707071;
+}
+.mp-password-strength-display {
+    padding: 15px;
+    width: 100%;
 }
 
 /*Mepr Change Password*/
