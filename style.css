@@ -157,6 +157,7 @@ input[name=mepr-account-form]{
  border-bottom-style: none;   
 }
 
+/*Mepr submit account form (account page)*/
 .mepr-submit input[type=submit]{
     height: 65px;
     background-color: #23b0ff;;
@@ -177,6 +178,28 @@ input[name=mepr-account-form]{
  border-bottom-style: none;   
 }
 
+/*Mepr new password*/
+.mepr-submit input[name="new-password-submit"]{
+    height: 65px;
+    background-color: #23b0ff;;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    border-bottom-width: 4px;
+    border-bottom-color: #00659e;
+    transition: background-color 200ms ease;
+}
+
+.mepr-submit input[name="new-password-submit"]:hover{
+    background-color: #008bff;
+}
+
+.mepr-submit input[name="new-password-submit"]:active{
+ border-bottom-style: none;   
+}
+
+/*Mepr Change Password*/
 .mepr-account-change-password a{
     color: #a3a3a3;
     text-decoration: none;
@@ -186,12 +209,13 @@ input[name=mepr-account-form]{
     transition: color 200ms ease;
 } 
 
-span .mepr-nav-item a{
- color: #a3a3a3;
- text-decoration: none;    
+
+div#mepr-account-nav span .mepr-nav-item a{
+ color: #a3a3a3 !important;
+ text-decoration: none !important;    
 }
 
-span .mepr-nav-item a:hover{
+div#mepr-account-nav span .mepr-nav-item a:hover{
   color: #3d3d3d;
   transition: color 200ms ease;
 }
