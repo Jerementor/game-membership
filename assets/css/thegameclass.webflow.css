@@ -7,7 +7,7 @@ body {
 
 h1 {
   margin-top: 20px;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.1em;
   font-size: 2.074em;
   line-height: 1.2em;
   font-weight: 700;
@@ -411,10 +411,6 @@ blockquote {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .05);
 }
 
-.tgc_div.tgc_640 {
-  width: 640px;
-}
-
 .tgc_lesson_block {
   height: 250px;
   margin-bottom: 20px;
@@ -468,6 +464,23 @@ blockquote {
   min-height: 100vh;
 }
 
+.tgc_div_top_padding {
+  display: block;
+  margin: 0px auto 20px;
+  padding: 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border: 1px solid #ece7e7;
+  background-color: #fff;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .05);
+}
+
+.tgc_div_top_padding.tgc_640 {
+  width: 640px;
+}
+
 @media (max-width: 991px) {
   .nav-menu {
     background-color: #fff;
@@ -496,11 +509,15 @@ blockquote {
     padding-right: 20px;
     padding-left: 20px;
   }
-  .tgc_div.tgc_640 {
-    width: auto;
-  }
   .tgc_lesson_block {
     height: auto;
+  }
+  .tgc_div_top_padding {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .tgc_div_top_padding.tgc_640 {
+    width: auto;
   }
 }
 
@@ -515,9 +532,17 @@ blockquote {
     padding-right: 20px;
     padding-left: 20px;
   }
+  .tgc_div_top_padding {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media (max-width: 479px) {
+  .section-60-top-padding {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   .section-60-top-padding.section-side-padding {
     padding-right: 20px;
     padding-left: 20px;
@@ -530,6 +555,10 @@ blockquote {
     padding-left: 10px;
   }
   .tgc_div {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .tgc_div_top_padding {
     padding-right: 20px;
     padding-left: 20px;
   }
