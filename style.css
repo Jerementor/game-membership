@@ -149,12 +149,19 @@ input[name=mepr-account-form]{
 
 }
 
+
+
 #rcp_submit, .rcp_submit:hover{
     background-color: #008bff;
 }
 
 #rcp_submit, .rcp_submit:active{
  border-bottom-style: none;   
+}
+
+/*Mp form label*/
+.mp-form-label{
+    margin-bottom: 10px;
 }
 
 /*Mepr submit account form (account page)*/
