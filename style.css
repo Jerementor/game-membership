@@ -370,11 +370,11 @@ div#mepr-account-nav span .mepr-nav-item a:hover{
 
 
 /*MEPR CORP ACCOUNTS*/
-input[type="checkbox"], input[type="radio"] {
+div#mpca_import_sub_accounts input[type="checkbox"], input[type="radio"] {
     margin: 10px;
 }
 
-input[type="file"], input[name="mcpa_sub_accounts_csv"]{
+div#mpca_import_sub_accounts input[type="file"], input[name="mcpa_sub_accounts_csv"]{
     margin: 20px;
 }
 
