@@ -124,6 +124,7 @@ div#mepr-account-nav {
     width: 100%;
 }
 
+/*Flash updated*/
 .mepr_updated {
     background-color: #def4c5 !important;
     border: 1px solid #4d8c2e !important;
@@ -135,10 +136,11 @@ div#mepr-account-nav {
     background-color: #ffe4e4 !important;
 }
 
-#rcp-account-overview{
-    display: none;
-}
+/*#rcp-account-overview{*/
+/*    display: none;*/
+/*}*/
 
+/*account page input*/
 input[name=mepr-account-form]{
 
     height: 65px;
@@ -154,6 +156,7 @@ input[name=mepr-account-form]{
 
 }
 
+/*registration page*/
 input[type="submit"]{
     height: 65px;
     background-color: #23b0ff;;
@@ -167,7 +170,16 @@ input[type="submit"]{
     transition: background-color 200ms ease;
 }
 
-
+/*Terms*/
+.mp_wrapper .mepr_price label, .mp_wrapper .mepr_price .mepr_price_cell {
+    display: inline !important;
+    font-size: 1.3em;
+    padding-left: 0px !important;
+    background: #fafafa;
+    color: #3d3d3d;
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+}
 
 /*Mp form label*/
 .mp-form-label{
@@ -186,6 +198,7 @@ input[type="submit"]{
     border-bottom-width: 4px;
     border-bottom-color: #00659e;
     transition: background-color 200ms ease;
+    margin-bottom: 20px;
 }
 
 .mepr-submit input[type=submit]:hover{
@@ -230,6 +243,35 @@ input[name="new-password-submit"]:active{
     padding: 15px;
     width: 100%;
 }
+
+.mp-weakpass {
+    background: #ffe2ca;
+    border: 1px solid #bb987b;
+    color: #3E0002;
+    border-radius: 6px;
+}
+
+.mp-mediumpass {
+    background: #dbfbde;
+    border: 1px solid #0e801b;
+    color: #292929;
+    border-radius: 6px;
+}
+.mp-strongpass {
+    background: #a1ffa9;
+    border: 1px solid #0e801b;
+    color: #292929;
+    border-radius: 6px;
+}
+
+/*Please fix the errors above - label*/
+.mp_wrapper .mepr-form-has-errors, .mp_wrapper .cc-error {
+    color: #d80000;
+    padding-left: 0px !important; 
+    font-weight: 700;
+}
+
+
 
 #mepr-account-home, #mepr-account-subscriptions, #mepr-account-payments{
     color: #a3a3a3 !important;
