@@ -100,7 +100,7 @@ ul.menu {
 }
 
 /*Rcp Inputs*/
-.rcp_form input[type=text], .rcp_form input[type=password], .rcp_form input[type=email] {
+.mepr-form-input input[type=text], .mepr-form-input input[type=password], .mepr-form-input input[type=email] {
     width: 100%;
     height: 50px;
     padding-left: 12px;
@@ -135,7 +135,7 @@ ul.menu {
  border-bottom-style: none;   
 }
 
-input[type=submit]{
+.mepr-submit input[type=submit]{
     height: 65px;
     background-color: #23b0ff;;
     width: 100%;
@@ -147,19 +147,19 @@ input[type=submit]{
     transition: background-color 200ms ease;
 }
 
-input[type=submit]:hover{
+.mepr-submit input[type=submit]:hover{
     background-color: #008bff;
 }
 
-input[type=submit]:active{
+.mepr-submit input[type=submit]:active{
  border-bottom-style: none;   
 }
 
-.rcp_lost_password a{
+.mepr-account-change-password a{
     color: #a3a3a3;
     text-decoration: none;
 } 
-.rcp_lost_password a:hover{
+.mepr-account-change-password a:hover{
     color: #3d3d3d;
     transition: color 200ms ease;
 } 
