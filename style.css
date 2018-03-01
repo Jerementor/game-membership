@@ -179,7 +179,7 @@ input[name=mepr-account-form]{
 }
 
 /*Mepr new password*/
-.mepr-submit input[name="new-password-submit"]{
+input[name="new-password-submit"]{
     height: 65px;
     background-color: #23b0ff;;
     width: 100%;
@@ -191,11 +191,11 @@ input[name=mepr-account-form]{
     transition: background-color 200ms ease;
 }
 
-.mepr-submit input[name="new-password-submit"]:hover{
+input[name="new-password-submit"]:hover{
     background-color: #008bff;
 }
 
-.mepr-submit input[name="new-password-submit"]:active{
+input[name="new-password-submit"]:active{
  border-bottom-style: none;   
 }
 
