@@ -99,22 +99,43 @@ ul.menu {
   list-style-type: none;  
 }
 
-/*Rcp Inputs*/
-.mepr-form-input input[type=text], .mepr-form-input input[type=password], .mepr-form-input input[type=email] {
+/*Memberpress*/
+/*Memberpress account Nav*/
+div#mepr-account-nav {
+    margin-top: 20px;
+}
+
+/*Form Inputs*/
+.mp_wrapper input[type=text] {
     width: 100%;
     height: 50px;
     padding-left: 12px;
-    border: 1px solid #dfdfdf;    
+    border: 1px solid #dfdfdf !important;    
     box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
     border-radius: 3px;
-    
 }
+
+/*Error Forms*/
+/*Updated*/
+.mepr_error, .mepr_updated {
+    padding: 15px 5px 15px 15px !important;
+    margin-bottom: 25px !important;
+    box-sizing: border-box !important;
+    width: 100%;
+}
+
+.mepr_updated {
+    background-color: #def4c5 !important;
+    border: 1px solid #4d8c2e !important;
+}
+
 
 #rcp-account-overview{
     display: none;
 }
 
-#rcp_submit, .rcp_submit{
+input[name=mepr-account-form]{
+
     height: 65px;
     background-color: #23b0ff;;
     width: 100%;
