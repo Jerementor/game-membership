@@ -174,7 +174,6 @@ input[type="submit"]{
 .mp_wrapper .mepr_price label, .mp_wrapper .mepr_price .mepr_price_cell {
     display: inline !important;
     font-size: 1.3em;
-    padding-left: 0px !important;
     background: #fafafa;
     color: #3d3d3d;
     padding: 5px;
