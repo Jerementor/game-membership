@@ -369,6 +369,29 @@ div#mepr-account-nav span .mepr-nav-item a:hover{
 }
 
 
+/*MEPR CORP ACCOUNTS*/
+input[type="checkbox"], input[type="radio"] {
+    margin: 10px;
+}
+
+input[type="file"], input[name="mcpa_sub_accounts_csv"]{
+    margin: 20px;
+}
+
+.mpca-fat-bottom {
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 20px;
+    background: #fafafa;
+    border: 1px solid #ece7e7;
+}
+
+#mcpa_export_sub_accounts{
+ color: #a3a3a3 !important;
+ text-decoration: none !important;     
+}
 
 
 /*select[name=rcp_display_name]{*/
