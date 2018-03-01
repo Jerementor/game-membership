@@ -221,7 +221,7 @@ input[name="mepr_payment_method"]{
     opacity: 0.5;
 }
 
-.mepr-form-radio input[type="radio"]:checked + label {
+input[type="radio"]:checked + label {
   opacity: 1;
 } 
 
