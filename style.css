@@ -214,6 +214,11 @@ input[name="new-password-submit"]:active{
     width: 100%;
 }
 
+#mepr-account-home, #mepr-account-subscription, #mepr-account-payments, #mepr-account-logout{
+    color: #a3a3a3 !important;
+    text-decoration: none !important;
+}
+
 /*Mepr Change Password*/
 .mepr-account-change-password a{
     color: #a3a3a3;
