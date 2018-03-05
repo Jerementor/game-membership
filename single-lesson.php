@@ -10,8 +10,8 @@ get_header();
 
 ?>
 <!--Using SINGLE-LESSON-->
-<div class="section_holder">
-    <div class="section-2">
+<div class="section_holder_grey">
+    <div class="section-no-top-padding">
         <div class="w-container">
             <div class="tgc_div">
                    <div class="lesson_wrapper">
@@ -62,7 +62,7 @@ get_header();
             
         </div>
     </div>
-    <div class="section">
+    <div class="section-60-top-padding">
     	<div class="w-container">
     		<div class="tgc_div">
             	<?php get_template_part('template-parts/comments/disqus'); ?>
